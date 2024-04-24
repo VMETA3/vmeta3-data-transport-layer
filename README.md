@@ -1,9 +1,9 @@
 [![codecov](https://codecov.io/gh/ethereum-vmeta3/vmeta3/branch/master/graph/badge.svg?token=0VTG7PG7YR&flag=data-transport-layer)](https://codecov.io/gh/ethereum-vmeta3/vmeta3)
-# @vmeta3/data-transport-layer
+# @vmeta3ai/defus layer
 
 ## What is this?
 
-The Vmeta3 Data Transport Layer is a long-running software service (written in TypeScript) designed to reliably index Vmeta3 transaction data from Layer 1 (Ethereum). Specifically, this service indexes:
+The Vmeta3ai Defus Layer is a long-running software service (written in TypeScript) designed to reliably index Vmeta3 transaction data from Layer 1 (Ethereum). Specifically, this service indexes:
 
 * Transactions that have been enqueued for submission to the CanonicalTransactionChain via [`CanonicalTransactionChain.enqueue`].
 * Transactions that have been included in the CanonicalTransactionChain via [`CanonicalTransactionChain.appendQueueBatch`] or [`CanonicalTransactionChain.appendSequencerBatch`].
